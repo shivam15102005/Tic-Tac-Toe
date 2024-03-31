@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("tic_tac_toe.jpg");
+    background-color: teal;
+    text-align: center;
+}
+.heading{
+    text-decoration: underline;
+}
+.container{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game{
+    height: 65vmin;
+    width: 65vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3vmin;
+}
+.box{
+height: 20vmin;
+width: 20vmin;
+border-radius: 1rem;
+border: none;
+font-size: 9vmin;
+color: black;
+background-color: blue;
+}
+.restart{
+    padding: 0.6rem;
+    border-radius: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: aliceblue;
+    font-style: inherit;
+    font-size: 16px;
+    
+}
+.msg{
+    color: white;
+    font-size: 4vmin;
+    margin-top: 12px;
+    font-weight: 200;
+}
+#new-game{
+    padding: 0.6rem;
+    border-radius: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: aliceblue;
+    font-style: inherit;
+    font-size: 16px;
+}
+.hide{
+    display: none;
+}
+.shivam{
+    margin-top: 45px;
+    color: yellow;
+    text-decoration:underline;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
